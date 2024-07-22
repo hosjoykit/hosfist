@@ -14,6 +14,7 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.26.0",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vueuse/core": "^10.7.1",
     "bignumber.js": "^9.1.2",
