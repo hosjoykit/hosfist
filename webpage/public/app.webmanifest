@@ -1,0 +1,16 @@
+{
+  "background_color": "#ffffff",
+  "theme_color": "#0098ea",
+  "description": "Revolutionary Web3 Mora game protocol.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "logo-white.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "HosFist",
+  "short_name": "HosFist",
+  "start_url": "/index.html"
+}

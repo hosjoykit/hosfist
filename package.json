@@ -1,0 +1,13 @@
+{
+  "name": "hosfist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "aptos move compile --named-addresses main=0x3e3c969220b693382c542ea1d6802f5176d62c58386f354bde473083878ded21",
+    "deploy": "aptos move create-object-and-publish-package --address-name main --named-addresses main=0x3e3c969220b693382c542ea1d6802f5176d62c58386f354bde473083878ded21"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.26.0"
+  }
+}
