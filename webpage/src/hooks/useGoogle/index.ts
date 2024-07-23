@@ -6,7 +6,7 @@ import { useNetworkConfig } from '@/config/env.config'
 import { useWeb3Wallet } from '@/components/web3wallet/Web3Wallet'
 import { GetLoginInfo, Network, networkMap, ResetLoginInfo, SetLoginInfo } from '@/components/web3wallet/types'
 
-const redirectUri = 'http://localhost:3000/google/callback'
+const redirectUri = `${window.location.origin}/google/callback`
 const clientId = '723768046425-f2o18feptepvtfduccjelho26dq2revv.apps.googleusercontent.com'
 // Get the nonce associated with ephemeralKeyPair
 
